@@ -11,11 +11,12 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 .PortfTituloContainer{
-    padding-top: 6vw;
+    padding-top: 3vw;
 }
 .PortfTitulo{
   padding-top: 1vw;
     padding-bottom: 1vw;
+    margin-bottom: 1.5vw;
     font-size: 5vw;
     background-color: #000;
     color: #f0ede2;
@@ -78,4 +79,31 @@ transform: scale(.97);
     font-size: 1.2vw;
     margin-top: 12vw;
     padding-bottom: .5vw;
+}
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1020px){
+    .PortfTituloContainer{
+        padding-top: 5vw;
+    }
+    .PortfTitulo{
+        font-size: 6vw;
+    }   
+    .PortfItem{
+        width: 32vw;
+        height: 22vw;
+    }
+    .PortfItem>img{
+        width: 32vw;
+        height: 22vw;
+    }
+    .pTituloProyecto{
+        margin-top: 16.5vw;
+        font-size: 1.7vw;
+        width: 32vw;
+        height: 5vw;
+    }
 }

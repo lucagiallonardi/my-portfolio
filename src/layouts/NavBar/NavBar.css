@@ -6,6 +6,7 @@
     z-index: 100;
     background-color: #000;
     height: 110vh;
+    transition: all .3s;
 
 }
 
@@ -58,7 +59,7 @@
 
 .navBarIcons{
     margin-left: 90vw;
-    margin-top: 56vw;
+    margin-top: 111vh;
     display: flex;
     flex-direction: column;
     position: fixed;
@@ -67,7 +68,7 @@
     width: 4.5vw;
     background-color: #000;
     opacity: .9;
-    z-index: 100;
+    z-index: 101;
 }
 
 .navBarIcons>:first-child{
@@ -94,4 +95,35 @@
 
 .navBarDisplay{
     display: none;
+}
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1020px) {
+    .navBar{
+        padding-top:135vh;    
+    }
+
+    .navBarItem{    
+        height: 4vw;
+        width: 65%;
+        margin-top: 4vw;
+        font-size: 2.5vw;
+        margin-left: 2vw;
+        
+    }
+
+    .navBarIcons{
+        height: 30vw;
+        width: 6vw;
+        padding-bottom: 2vw;
+    }
+
+.navBarIco{
+    font-size: 4vw;
+}
+    
 }

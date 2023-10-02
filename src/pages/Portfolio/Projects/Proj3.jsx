@@ -49,8 +49,6 @@ const Proj3 = () => {
                 </div>
                 </div>
 
-
-
                 <div className='projCmas'>
                 <div className='projCmasLeft'>
             <h3>Proyecto de consola hecho con C++</h3>

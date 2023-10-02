@@ -145,7 +145,6 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     display: flex;
     flex-direction: column;
     align-items: center;
-    
     font-weight: 700;
     
   }
@@ -532,4 +531,53 @@ background-color: #622135;
 -webkit-box-shadow: -1px -3px 27px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: -1px -3px 27px 0px rgba(0,0,0,0.75);
   }
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1020px){
+  .aboutTitulo{
+      font-size: 6vw;
+  }
+
+  .h2About{
+    width: 40vw;  
+    font-size: 2.5vw;   
+}
+
+.pAbout{
+  width: 60vw;
+  padding-top: 1.5vw;
+  text-align: center;
+  font-size: 2vw;
+}
+.aboutLink{
+  width: 17vw;
+  height: 5vw;
+  font-size: 2vw;
+}
+
+.EducAbout{
+  font-size: 3vw;
+}
+
+.linkCertificado{
+font-size: 1.5vw;
+}
+.timeline ul li div {
+  font-size: 1.3vw;
+}
+
+.skillsTitulo{
+  font-size: 3vw;
+  width: 27vw;
+}
+
+.imgSkill{
+  width: 6.5vw;
+}
+
+.skillItem{
+  font-size: 1.7vw;
+}
 }

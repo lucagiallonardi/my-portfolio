@@ -57,3 +57,20 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     text-decoration: none;
     color: #000;
 }
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1020px){
+    .ContactTitulo{
+        font-size: 6vw;
+    }   
+    .contactItemDiv{
+        font-size: 3vw;
+        width: 55vw;
+    }
+    
+    .contactItemDiv>i{
+        margin-right: 1.5vw;
+        font-size: 6vw;
+    }
+}

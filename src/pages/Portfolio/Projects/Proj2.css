@@ -51,14 +51,19 @@ margin-bottom: 2vw;
 
 .descProj2>p{
     margin-left: 2vw;
+    font-size: 1.5vw;
 }
 
 .imgProj2Div{
     display: flex;
     flex-direction: column;
+    position: fixed;
+    margin-left: 50vw;
 }
+
+
 .imgProj2Div>img{
-    width: 40vw;
+    width: 37vw;
     margin-left: 2vw;
     margin-top: 5vw;
     object-fit: cover;
@@ -66,4 +71,28 @@ margin-bottom: 2vw;
     box-shadow: -1px -3px 14px -1px rgba(0,0,0,0.75);
 -webkit-box-shadow: -1px -3px 14px -1px rgba(0,0,0,0.75);
 -moz-box-shadow: -1px -3px 14px -1px rgba(0,0,0,0.75);
+}
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1020px){
+    .descProj2>h1{
+        width: 45vw;
+        font-size: 3vw;
+    }
+
+    .descProj2>h3{
+    width: 45vw;
+    font-size: 2.3vw;
+    }
+    .descProj2>p{
+        margin-left: 2vw;
+        font-size: 2vw;
+    }
+
+    .imgProj2Div>img{
+        width: 37vw;
+        margin-top: 20vh;
+    }
 }

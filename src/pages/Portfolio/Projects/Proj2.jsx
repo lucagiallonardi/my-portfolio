@@ -4,14 +4,15 @@ import './Proj1.css';
 import './Proj2.css';
 import { Link, useLocation } from 'react-router-dom';
 
-const Proj1 = () => {
+const Proj2 = () => {
     const location = useLocation();
     return (
         <div>
             <div className={`${location.pathname !== '/' ? 'page-transition' : ''}`}></div>
 <div className={`${location.pathname !== '/' ? 'page-transition2' : ''}`}></div>
 <div className={`${location.pathname !== '/' ? 'page-transition3' : ''}`}></div>
-            <NavBar navBarClass='navBarDisplay'/>
+            
+<NavBar navBarClass='navBarDisplay'/>
             <div className="projContainer2">
                 <div className='descProj2'>
             <h1>PLATAFORMA WEB INSPIRADA EN GOOGLE TV</h1>
@@ -33,10 +34,11 @@ const Proj1 = () => {
                     <img src='https://i.postimg.cc/SRsJPF06/prueba2.jpg' alt='portada de proyecto' />
                     <div className="buttonsProj">
                         <Link className="linkButtProj"to={"https://github.com/lucagiallonardi/smart-tv-web.git"} target='_label'><button><i className="fa-brands fa-github"></i> Github</button></Link><Link to={"https://smart-tv-web.onrender.com/"} className="linkButtProj" target='_label'><button><i className="fa-solid fa-eye"></i> Preview</button></Link></div>
+                
                 </div>
             </div>
         </div>
     );
 };
 
-export default Proj1;
+export default Proj2;
