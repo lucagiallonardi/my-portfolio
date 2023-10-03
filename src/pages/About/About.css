@@ -239,9 +239,11 @@ background-color: #622135;
   }
 
   .skillContainer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-column-gap: 0px;
+      grid-row-gap: 0px;
   }
 
   .skillItem{
@@ -535,7 +537,7 @@ background-color: #622135;
 
 
 
-@media screen and (min-width: 768px) and (max-width: 1020px){
+@media screen and (min-width: 501px) and (max-width: 1020px){
   .aboutTitulo{
       font-size: 6vw;
   }
@@ -579,5 +581,107 @@ font-size: 1.5vw;
 
 .skillItem{
   font-size: 1.7vw;
+}
+}
+
+@media screen and (max-width: 500px) {
+
+  .aboutTitulo{
+    margin-top: 5vw;
+    font-size: 9vw;
+    margin-left: -20vw;
+}
+
+.h2About{
+  width: 65vw;  
+  font-size: 4vw;  
+  margin-left: -20vw; 
+}
+.pAbout{
+width: 70vw;
+padding-top: 1.5vw;
+text-align: center;
+font-size: 3vw;
+margin-left: -20vw;
+}
+
+.aboutButtons{
+  margin-left: -20vw;
+}
+
+.aboutLink{
+margin-top: 4vw;
+margin-left: 1vw;
+margin-right: 1vw;
+width: 30vw;
+height: 8vw;
+font-size: 3.5vw;
+}
+
+.EducAbout{
+font-size: 7vw;
+margin-left: -20vw;
+}
+.timeline ul li{
+  margin-left: -25vw;
+  padding-top: 15vw;
+  
+}
+
+.linkCertificado{
+font-size: 3vw;
+}
+.timeline ul li div {
+font-size: 4vw;
+width: 53vw;
+padding-top: 0;
+}
+
+.timeline p{
+  width: 25vw;  
+}
+
+.timeline ul li:nth-child(odd) div {
+  margin-left: 1vw;
+}
+
+.timeline ul li:nth-child(even) div {
+  margin-left: 32vw;
+  border-radius: 50px 50px 50px 0 ;
+}
+
+.añoTimelime{
+  font-size: 5vw;
+  margin-top: 3vw;
+}
+
+.timeline ul li::after {
+  width: 5vw;
+  height: 5vw;
+}
+
+.skillsTitulo{
+  font-size: 7vw;
+  margin-left: -20vw;
+  width: 70vw;
+  margin-top: 20vw;
+}
+.skillContainer{
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(4, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+margin-left: -20vw;
+}
+
+.imgSkill{
+width: 15vw;
+margin-left: 5vw;
+animation-delay: 1s;
+animation-duration: .5s;
+}
+.skillItem{
+font-size: 3vw;
+margin-top: 0;
 }
 }

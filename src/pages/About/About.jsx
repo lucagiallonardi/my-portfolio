@@ -72,6 +72,7 @@ const About = () => {
             <div className={`${exit === true ? 'transiition3-exit' : ''} `}></div>
             <NavBar/>
             <div className="aboutTodo">
+              
                 <div className='aboutTituloContainer'>
                 <h1 className='aboutTitulo'>ACERCA DE MI</h1>
                 </div>
@@ -150,9 +151,7 @@ const About = () => {
             <div className='skillItem'><img ref={myHabRef3} className={`${myElementHabIsVisible3 ? "HabIco3 imgSkill" : "imgSkill"}`}src={jsLogo} alt='js-logo'/>JAVASCRIPT</div>
             <div className='skillItem'><img ref={myHabRef4} className={`${myElementHabIsVisible4 ? "HabIco4 imgSkill" : "imgSkill"}`}src={reactLogo} alt='react-logo'/>REACT JS</div>
             <div className='skillItem'><img ref={myHabRef5} className={`${myElementHabIsVisible5 ? "HabIco5 imgSkill" : "imgSkill"}`}src={nodejs} alt='nodejs-logo'/>NODE JS</div>
-            <div className='skillItem'><img ref={myHabRef6} className={`${myElementHabIsVisible6 ? "HabIco6 imgSkill" : "imgSkill"}`}src={next} alt='nextjs-logo'/>NEXT JS</div></div>
-            
-            <div className="skillContainer">
+            <div className='skillItem'><img ref={myHabRef6} className={`${myElementHabIsVisible6 ? "HabIco6 imgSkill" : "imgSkill"}`}src={next} alt='nextjs-logo'/>NEXT JS</div>
             <div className='skillItem'><img ref={myHabRef7} className={`${myElementHabIsVisible7 ? "HabIco7 imgSkill" : "imgSkill"}`}src={mongoDB} alt='mongodb-logo'/>MongoDB</div>
             <div className='skillItem'><img ref={myHabRef8} className={`${myElementHabIsVisible8 ? "HabIco8 imgSkill" : "imgSkill"}`}src={bootstrapLogo} alt='bootstrap-logo'/>BOOTSTRAP</div>
             <div className='skillItem'><img ref={myHabRef9} className={`${myElementHabIsVisible9 ? "HabIco9 imgSkill" : "imgSkill"}`}src={github} alt='git-logo'/>GIT</div>

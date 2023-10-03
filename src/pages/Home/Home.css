@@ -222,7 +222,7 @@ z-index: 2;
 
 
 
-@media screen and (min-width: 768px) and (max-width: 1020px){
+@media screen and (min-width: 501px) and (max-width: 1020px){
     .presHola{
         font-size: 5vw;
     }
@@ -244,5 +244,49 @@ z-index: 2;
     width: 17vw;
     height: 5vw;
     font-size: 2vw;
+}
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .homeContainer{
+        flex-direction: column-reverse;
+    }
+    .homePres{
+        width: 80vw;
+        margin-left: -15vw;
+        margin-top: -17vw;
+    }
+    .homeImg{
+        width: 40vw;
+        position: fixed;
+        margin-top: 10vw;
+        animation: none;
+        margin-left: 35vw;
+    }
+    .presHola{
+        font-size: 8vw;
+    }
+    .divSoy{
+        display: flex;
+        flex-direction: row;
+        font-size: 6vw;
+    }
+    
+.subtituloH5{
+    height: 10vw;
+    font-size: 4vw;
+    width: 60vw;
+}
+.homeP{
+    margin-top: 2vw;
+    font-size: 4vw;
+    width: 35vw;
+}
+.homeBoton{
+    width: 33vw;
+    height: 10vw;
+    font-size: 3.7vw;
 }
 }

@@ -60,7 +60,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 
 
-@media screen and (min-width: 768px) and (max-width: 1020px){
+@media screen and (min-width: 501px) and (max-width: 1020px){
     .ContactTitulo{
         font-size: 6vw;
     }   
@@ -72,5 +72,24 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     .contactItemDiv>i{
         margin-right: 1.5vw;
         font-size: 6vw;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .ContactTitulo{
+        font-size: 9vw;
+        margin-left: -20vw;
+        margin-top: 20vw;
+    }   
+    .contactItemDiv{
+        margin-top: 5vw;
+        font-size: 4vw;
+        width: 75vw;
+        height: 10vw;
+        margin-left: -20vw;
+    }
+    .contactItemDiv>i{
+        margin-right: 1.5vw;
+        font-size: 9vw;
     }
 }

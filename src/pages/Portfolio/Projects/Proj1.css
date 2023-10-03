@@ -93,7 +93,7 @@ margin-bottom: 2vw;
 
 
 
-@media screen and (min-width: 768px) and (max-width: 1020px){
+@media screen and (min-width: 501px) and (max-width: 1020px){
     .buttonsProj{
         margin-left: 1.7vw;
         margin-top: 2vw;
@@ -121,5 +121,43 @@ margin-bottom: 2vw;
         .imgProjDiv>img{
             width: 37vw;
             margin-top: 20vh;
+        }
+}
+
+@media screen and (max-width: 500px){
+        .buttonsProj{
+        margin-left: 10vw;
+        margin-top: 2vw;
+    }
+    .linkButtProj>button{
+        width: 30vw;
+        height: 9vw;
+        font-size: 5vw;
+    }
+        .descProj>h1{
+            width: 90vw;
+            font-size: 7vw;
+        }
+    
+        .descProj>h3{
+        width: 60vw;
+        font-size: 4vw;
+        }
+        
+        .descProj>p{
+            margin-left: 2vw;
+            font-size: 3vw;
+            width: 80vw;
+            margin-top: 90vw;
+        }
+
+        .imgProjDiv{
+            position: inherit;
+            margin-left: -50vw;
+        }
+    
+        .imgProjDiv>img{
+            width: 80vw;
+            margin-top: 35vw;
         }
 }

@@ -85,7 +85,7 @@ transform: scale(.97);
 
 
 
-@media screen and (min-width: 768px) and (max-width: 1020px){
+@media screen and (min-width: 501px) and (max-width: 1020px){
     .PortfTituloContainer{
         padding-top: 5vw;
     }
@@ -105,5 +105,42 @@ transform: scale(.97);
         font-size: 1.7vw;
         width: 32vw;
         height: 5vw;
+    }
+}
+
+
+@media screen and (max-width: 500px){
+    .PortfTodo{
+        height: 100%;
+    }
+    .PortfTituloContainer{
+        padding-top: 10vw;
+    }
+    .PortfTitulo{
+        font-size: 9vw;
+        margin-left: -20vw;
+        margin-bottom: 5vw;
+    }   
+    .PortfImages{
+        display:contents;
+    }
+    .PortfItem{
+        margin-left: -20vw;
+        width: 52vw;
+        height: 42vw;
+        margin-bottom: 5vw;
+    }
+    .PortfItem>img{
+        width: 52vw;
+        height: 42vw;
+    }
+    .pTituloProyecto{
+        margin-top: 31.5vw;
+        font-size: 3.5vw;
+        width: 52vw;
+        height: 10vw;
+    }
+    .PortfImages>p{
+        margin-top: 20vw;
     }
 }
