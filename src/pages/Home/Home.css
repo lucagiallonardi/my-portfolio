@@ -130,7 +130,7 @@ z-index: 2;
     top: 85vh;
     opacity: 0; 
     border-radius: 50%;   
-    animation: movRaya linear infinite;
+    animation: movRaya linear;
     z-index: 1;
 }
 
