@@ -256,11 +256,11 @@ z-index: 2;
     .homePres{
         width: 80vw;
         margin-left: -15vw;
-        margin-top: -17vw;
+        margin-top: -20vw;
     }
     .homeImg{
         width: 40vw;
-        top: 40vh;
+        top: 35vh;
         animation: none;
         left: 44vw;
         position: absolute;
@@ -278,15 +278,17 @@ z-index: 2;
     height: 10vw;
     font-size: 4vw;
     width: 60vw;
+    margin-top: 3vw;
 }
 .homeP{
-    margin-top: 2vw;
-    font-size: 4vw;
+    margin-top: 3vw;
+    font-size: 4.5vw;
     width: 35vw;
 }
 .homeBoton{
     width: 33vw;
     height: 10vw;
     font-size: 3.7vw;
+    margin-top: 3vw;
 }
 }
