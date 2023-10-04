@@ -59,7 +59,7 @@
 
 .navBarIcons{
     margin-left: 90vw;
-    margin-top: 111vh;
+    top: 35vh;
     display: flex;
     flex-direction: column;
     position: fixed;
