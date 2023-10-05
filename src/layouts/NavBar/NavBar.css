@@ -105,22 +105,13 @@
     flex-direction: column;
     cursor: pointer;
     position: fixed;
-    left: 85vw;
+    left: 83vw;
     height: 5vh;
-    top: 90vh;
+    top: 88vh;
   }
   
   .burger-button.open {
     z-index: 1000;
-  }
-  
-  .bar {
-    width: 5vh;
-    height: 1.5vw;
-    background-color: #000;
-    margin-top: .8vw;
-    border-radius: 30px;
-    transition: all ease-in-out .5s;
   }
   
   .burger-button.open{
@@ -128,25 +119,25 @@
   }
 
   .bar:nth-child(1).open{
-    width: 2vh;
     transform: rotate(45deg);
-    margin-left: .3vh;
+    margin-left: -2vh;
+    margin-top: 2vh;
+    width: 7vh;
   }
   .bar:nth-child(2).open{
     transform: rotate(-45deg);
-    margin-top: 0vh;
+    margin-top: -1.2vh;
+    margin-left: -2vh;
+    width: 7vh;
   }
   .bar:nth-child(3).open{
-    width: 2vh;
-    transform: rotate(45deg);
-    margin-left: 2.3vh;
-    margin-top: 0.3vh;
+opacity: 0;
   }
 
 
 
 
-@media screen and (min-width: 501px) and (max-width: 1020px) {
+@media screen and (min-width: 551px) and (max-width: 1020px) {
     .navBar{
         padding-top:135vh;    
     }
@@ -173,7 +164,7 @@
 
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
     .navBar{
         display: none;   
     }

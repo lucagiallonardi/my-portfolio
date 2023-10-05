@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './NavBar.css';
 import foto from '../../img/foto.jpg';    
+import { Divide as Hamburger } from 'hamburger-react'
 import { Link, useNavigate, useLocation } from 'react-router-dom'; 
 
 const NavBar = (props) => {
@@ -51,10 +52,9 @@ const NavBar = (props) => {
         <Link onClick={()=>handleClick("/contacto")}className='navBarIcoLinks'><i className="fa-solid fa-paper-plane navBarIco"></i></Link>
         </div>
         <div className={`burger-button ${menuOpen ? 'open' : ''}`} onClick={() => setMenuOpen(!menuOpen)}>
-      <div className={`bar ${menuOpen ? 'open' : ''}`}></div>
-      <div className={`bar ${menuOpen ? 'open' : ''}`}></div>
-      <div className={`bar ${menuOpen ? 'open' : ''}`}></div>
-    </div></div>
+        <Hamburger />
+        </div>
+        </div>
         </div>
         </div>
     );
