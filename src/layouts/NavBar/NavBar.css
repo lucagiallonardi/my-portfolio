@@ -105,9 +105,9 @@
     flex-direction: column;
     cursor: pointer;
     position: fixed;
-    left: 83vw;
+    left: 75vw;
     height: 5vh;
-    top: 88vh;
+    top: 80vh;
   }
   
   .burger-button.open {
@@ -118,26 +118,9 @@
     display: none;
   }
 
-  .bar:nth-child(1).open{
-    transform: rotate(45deg);
-    margin-left: -2vh;
-    margin-top: 2vh;
-    width: 7vh;
-  }
-  .bar:nth-child(2).open{
-    transform: rotate(-45deg);
-    margin-top: -1.2vh;
-    margin-left: -2vh;
-    width: 7vh;
-  }
-  .bar:nth-child(3).open{
-opacity: 0;
-  }
 
 
-
-
-@media screen and (min-width: 551px) and (max-width: 1020px) {
+@media screen and (min-width: 501px) and (max-width: 1020px) {
     .navBar{
         padding-top:135vh;    
     }
@@ -164,18 +147,18 @@ opacity: 0;
 
 
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 500px) {
     .navBar{
         display: none;   
     }
 
     .navBarIcons{
         display: none;
-        height: 33vh;
-        width: 8vh;
+        height: 21vh;
+        width: 6vh;
         padding-bottom: 2vw;
-        margin-left: 82vw;
-        top: 55vh;        
+        margin-left: 76vw;
+        top: 59vh;        
     }
 
     .navBarIcons.show{
@@ -197,8 +180,8 @@ opacity: 0;
     }
 
 .navBarIco{
-    font-size: 4vh;
-    margin-top: 3vh;
+    font-size: 3vh;
+    margin-top: 1.5vh;
 }
 
 .burger-button.open{
