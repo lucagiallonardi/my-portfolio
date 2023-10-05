@@ -100,6 +100,50 @@
 
 
 
+.burger-button {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    position: fixed;
+    left: 85vw;
+    height: 5vh;
+    top: 90vh;
+  }
+  
+  .burger-button.open {
+    z-index: 1000;
+  }
+  
+  .bar {
+    width: 5vh;
+    height: 1.5vw;
+    background-color: #000;
+    margin-top: .8vw;
+    border-radius: 30px;
+    transition: all ease-in-out .5s;
+  }
+  
+  .burger-button.open{
+    display: none;
+  }
+
+  .bar:nth-child(1).open{
+    width: 2vh;
+    transform: rotate(45deg);
+    margin-left: .3vh;
+  }
+  .bar:nth-child(2).open{
+    transform: rotate(-45deg);
+    margin-top: 0vh;
+  }
+  .bar:nth-child(3).open{
+    width: 2vh;
+    transform: rotate(45deg);
+    margin-left: 2.3vh;
+    margin-top: 0.3vh;
+  }
+
+
 
 
 @media screen and (min-width: 501px) and (max-width: 1020px) {
@@ -135,14 +179,43 @@
     }
 
     .navBarIcons{
-        height: 60vw;
-        width: 10vw;
+        display: none;
+        height: 33vh;
+        width: 8vh;
         padding-bottom: 2vw;
-        margin-left: 86vw;
+        margin-left: 82vw;
+        top: 55vh;        
+    }
+
+    .navBarIcons.show{
+        display: flex;
+        animation: navbarButton .5s ease-in-out;       
+    }
+
+
+    @keyframes navbarButton {
+        0%{
+            transform: scale(.5);
+            top: 90vh;
+            height: 0;
+            
+        }
+        100%{
+            transform: scale(1);
+        }
     }
 
 .navBarIco{
-    font-size: 7vw;
-    margin-top: 6vw;
+    font-size: 4vh;
+    margin-top: 3vh;
+}
+
+.burger-button.open{
+    display: block;
+  }
+
+  
+.burger-button{
+    display: flex;
 }
 }

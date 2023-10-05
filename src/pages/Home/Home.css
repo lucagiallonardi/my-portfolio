@@ -259,11 +259,11 @@ z-index: 2;
         margin-top: -20vw;
     }
     .homeImg{
-        width: 40vw;
-        top: 35vh;
-        animation: none;
-        left: 44vw;
+        width: 50vw;
+        margin-top: -19vw;
+        left: 43vw;
         position: absolute;
+
     }
     .presHola{
         font-size: 8vw;

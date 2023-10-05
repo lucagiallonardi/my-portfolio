@@ -34,7 +34,7 @@ const Home = () => {
                 <h1>SOY</h1><h1 className='Luca'>LUCA</h1>
                 </div>
                 <h5 className='subtituloH5'>ANALISTA PROGRAMADOR | DESARROLLADOR WEB</h5>
-                <p className='homeP'>Bienvenido(a) a mi espacio digital. Mi experiencia se extiende desde ReactJS y NodeJs hasta C#, C++ y VB. Te invito a explorar mi portfolio para tener una visión detallada de mis creaciones y habilidades.</p>
+                <p className='homeP'>Bienvenido(a) a mi espacio digital. Mi experiencia se enfoca en desarrollo web con ReactJs y NodeJs. También cuento con conocimientos de C#, C++ y VB. Te invito a explorar mi portafolio y mis proyectos. </p>
                 <Link onClick={()=>handleClick("/about")}  className='homeLink'><div className='homeBoton'>MÁS SOBRE MI</div></Link>
             </div>
             </div>

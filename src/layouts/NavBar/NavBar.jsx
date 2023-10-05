@@ -5,6 +5,8 @@ import { Link, useNavigate, useLocation } from 'react-router-dom';
 
 const NavBar = (props) => {
 
+    const [menuOpen, setMenuOpen] = useState(false);
+
     const [exit, setExit] = useState(false);
     const navigate = useNavigate();
     const location = useLocation();
@@ -26,7 +28,12 @@ const NavBar = (props) => {
             <div className={`${exit === true ? 'transiition2-exit' : ''} `}></div>
             <div className={`${exit === true ? 'transiition3-exit' : ''} `}></div>
 
+
+
+
         <div className='navBarContainer'>
+        
+
         <div className={`navBar ${props.navBarClass}`}>
             <img src={foto} alt='mi foto' className='navBarImg'/>
             <div className="navBarBackground">
@@ -36,12 +43,18 @@ const NavBar = (props) => {
             <Link onClick={()=>handleClick("/contacto")} className="navBarLink"><div className='navBarItem'>CONTACTO</div></Link>
             </div>
         </div>
-        <div className='navBarIcons'>
+        <div className='burgerContainer'>
+        <div className={`navBarIcons ${menuOpen ? 'show' : ''}`}>
         <Link onClick={()=>handleClick("/")} className='navBarIcoLinks'><i className="fa-solid fa-house navBarIco"></i></Link>
         <Link onClick={()=>handleClick("/about")} className='navBarIcoLinks'><i className="fa-solid fa-user navBarIco"></i></Link>
         <Link onClick={()=>handleClick("/portfolio")} className='navBarIcoLinks'><i className="fa-solid fa-image navBarIco"></i></Link>
         <Link onClick={()=>handleClick("/contacto")}className='navBarIcoLinks'><i className="fa-solid fa-paper-plane navBarIco"></i></Link>
         </div>
+        <div className={`burger-button ${menuOpen ? 'open' : ''}`} onClick={() => setMenuOpen(!menuOpen)}>
+      <div className={`bar ${menuOpen ? 'open' : ''}`}></div>
+      <div className={`bar ${menuOpen ? 'open' : ''}`}></div>
+      <div className={`bar ${menuOpen ? 'open' : ''}`}></div>
+    </div></div>
         </div>
         </div>
     );
