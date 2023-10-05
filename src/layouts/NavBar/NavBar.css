@@ -105,7 +105,7 @@
     flex-direction: column;
     cursor: pointer;
     position: fixed;
-    left: 75vw;
+    left: 79vw;
     height: 5vh;
     top: 80vh;
   }
@@ -157,7 +157,7 @@
         height: 21vh;
         width: 6vh;
         padding-bottom: 2vw;
-        margin-left: 76vw;
+        margin-left: 80vw;
         top: 59vh;        
     }
 
@@ -170,7 +170,7 @@
     @keyframes navbarButton {
         0%{
             transform: scale(.5);
-            top: 90vh;
+            top: 80vh;
             height: 0;
             
         }
