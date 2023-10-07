@@ -17,11 +17,11 @@ const Proj2 = () => {
                 <div className='descProj2'>
             <h1>PLATAFORMA WEB INSPIRADA EN GOOGLE TV</h1>
             <h3>Tecnologías: ReactJs, NodeJs Express y MongoDB</h3>
-            <p className='parrafoProj2'>El mismo consta de una plataforma web fullstack desde la cual cada usuario puede "instalar" las aplicaciones de Streaming que use para poder acceder a ellas de manera mas rapida. 
+            <p className='parrafoProj2'>El mismo consta de una plataforma web fullstack desde la cual cada usuario puede "instalar" las aplicaciones de Streaming que use para poder acceder a ellas de manera rapida. 
                 Además de esto, el usuario tambien puede agregar "Favoritos", indicando titulo, link de la pagina y la url de alguna imagen que represente dicho favorito.<br/>
-                Como mencione anteriormente, cada usuario puede personalizar los iconos que apareceran en inicio a su gusto y segun sus necesidades. Para ello cree un sistema de registro y login utilizando nodejs, express y mongodb como base de datos.<br/>
-                Para que estos datos estén seguros he cifrado las contraseñas en el servidor previo al guardado en la base de datos mediante el uso de dependencias y utilizo un sistema de tokens para realizar la autenticación de los usuarios luego de realizar el login.<br/>
-                Con respecto a las aplicaciones, paso a comentar como funcionan. Al registrarse un usuario nuevo se crean automaticamente en la base de datos los items que seran las aplicaciones prederterminadas para todos los usuarios.
+                Cada usuario puede personalizar los iconos que apareceran en inicio a su gusto. Para ello creé un sistema de registro y login utilizando nodejs, express y mongodb como base de datos.<br/>
+                Para que estos datos estén seguros he cifrado las contraseñas en el servidor y utilicé un sistema de tokens para autenticar los inicios de sesión de los usuarios.<br/>
+                Con respecto a las aplicaciones, al registrarse un usuario nuevo se crean automaticamente en la base de datos los items que seran las aplicaciones prederterminadas que apareceran en el Home de todos los usuarios.
                 Una vez que el usuario inicie sesion podrá dirigirse a la sección "Apps" donde encontrara varios items predefinidos allí en forma de aplicaciones, los cuales podrá instalar o desinstalar segun desee, lo que hara que en la pagina de inicio aparezcan o desaparezcan según corresponda.<br/>
                 Los procesos de instalar y desinstalar no son mas que solicitudes a la base de datos, donde al desinstalar se elimina un item asignado al usuario y al instalar se crea un item nuevo, mostrandose en la pantalla de inicio.<br/>
                 Los estilos fueron realizados todos con CSS salvo algunos items como el navBar y algunos sliders que fueron creados con Bootstrap.<br/>
